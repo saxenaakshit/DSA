@@ -24,10 +24,10 @@ Human(Human &temp){
     this->gender=temp.gender;
 
 }
-// Human(int gender){
-//    // multiple parameterised constructor can not be used
-//     this->gender=gender;
-// }
+Human(char gender,int num){
+   // multiple parameterised constructor can not be used
+    this->gender=gender;
+}
 
 
 

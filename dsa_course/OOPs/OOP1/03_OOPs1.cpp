@@ -37,7 +37,7 @@ int main(){
     cout<<ramesh.getAge();
 
 
-    //accessing is available because it is public
+    //accessing is not available and using getter&setter because it is private.
    
 
 
