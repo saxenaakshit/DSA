@@ -25,8 +25,9 @@ Human(Human &temp){
 
 }
 Human(char gender,int num){
-   // multiple parameterised constructor can not be used
+   // multiple parameterised constructor can be used
     this->gender=gender;
+    this->age=num;
 }
 
 
