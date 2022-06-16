@@ -24,10 +24,11 @@ Human(Human &temp){
     this->gender=temp.gender;
 
 }
-// Human(int gender){
-//    // multiple parameterised constructor can not be used
-//     this->gender=gender;
-// }
+Human(int gender,int age){
+   // multiple parameterised constructor can be used
+    this->gender=gender;
+    this->age=age;
+}
 
 
 
@@ -45,6 +46,8 @@ int main(){
 
     Human *suresh=new Human(10);
     suresh->gender='f';
+
+    Human *akshit=new Human('m',23);
 
     //where this pointer will get stored in the static memory
     
