@@ -18,7 +18,7 @@ Human(int age){
     this->age=age;
 }
 
-//copy constructer
+//customised copy constructer (default copy constructor also called when there is no customised one)
 Human(Human &temp){
     this->age=temp.age;
     this->gender=temp.gender;
